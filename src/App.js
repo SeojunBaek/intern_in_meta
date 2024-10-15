@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import MenuFrame from './components/MenuFrame';  
+import MenuFrame from './components/MenuFrame.js';  
 import './styles/page.css';
 
 const App = () => {

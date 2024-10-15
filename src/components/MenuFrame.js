@@ -3,12 +3,12 @@ import '../styles/page.css';
 
 const MenuFrame = () => {
   const products = [
-    { brand: '브랜드A', description: '편안하고 착용감이 좋은 신발', price: '35,000원', imageUrl: '/images/shoe1.jpg', left: '23px', top: '198px'},
-    { brand: '브랜드A', description: '힙한 컬러가 매력적인 신발', price: '25,000원', imageUrl: '/images/shoe2.jpg', left: '233px', top: '198px' },
-    { brand: '브랜드B', description: '편안하고 착용감이 좋은 신발', price: '35,000원', imageUrl: '/images/shoe3.jpg', left: '23px', top: '470px' },
-    { brand: '브랜드B', description: '힙한 컬러가 매력적인 신발', price: '35,000원', imageUrl: '/images/shoe4.jpg', left: '233px', top: '470px' },
-    { brand: '브랜드C', description: '편안하고 착용감이 좋은 신발', price: '35,000원', imageUrl: '/images/shoe5.jpg', left: '23px', top: '742px' },
-    { brand: '브랜드C', description: '힙한 컬러가 매력적인 신발', price: '35,000원', imageUrl: '/images/shoe6.jpg', left: '233px', top: '742px' },
+    { brand: '브랜드A', description: '편안하고 착용감이 좋은 신발', price: '35,000원', imageUrl: process.env.PUBLIC_URL + '/images/shoe1.jpg', left: '23px', top: '198px'},
+    { brand: '브랜드A', description: '힙한 컬러가 매력적인 신발', price: '25,000원', imageUrl: process.env.PUBLIC_URL + '/images/shoe2.jpg', left: '233px', top: '198px' },
+    { brand: '브랜드B', description: '편안하고 착용감이 좋은 신발', price: '35,000원', imageUrl: process.env.PUBLIC_URL + '/images/shoe3.jpg', left: '23px', top: '470px' },
+    { brand: '브랜드B', description: '힙한 컬러가 매력적인 신발', price: '35,000원', imageUrl: process.env.PUBLIC_URL + '/images/shoe4.jpg', left: '233px', top: '470px' },
+    { brand: '브랜드C', description: '편안하고 착용감이 좋은 신발', price: '35,000원', imageUrl: process.env.PUBLIC_URL + '/images/shoe5.jpg', left: '23px', top: '742px' },
+    { brand: '브랜드C', description: '힙한 컬러가 매력적인 신발', price: '35,000원', imageUrl: process.env.PUBLIC_URL + '/images/shoe6.jpg', left: '233px', top: '742px' },
   ];
 
   // 각 제품의 버튼 상태를 관리하는 state
