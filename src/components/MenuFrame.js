@@ -31,7 +31,7 @@ const MenuFrame = () => {
       <div className="menufixed">
         <div className="cart-icon">
           {/* 장바구니 아이콘 이미지로 교체 */}
-          <img src="/images/cart.png" alt="Shopping Cart" className="cart-icon" />
+          <img src={process.env.PUBLIC_URL + '/images/cart.png'} alt="Shopping Cart" className="cart-icon" />
           {cartItemCount > 0 && (
             <div className="cart-count">
               {cartItemCount}
